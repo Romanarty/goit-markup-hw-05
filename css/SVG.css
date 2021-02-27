@@ -26,6 +26,7 @@
 .header-contacts svg {
   margin-right: 10px;
   fill: currentColor;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-contacts svg:hover,
 .header-contacts svg:focus {
@@ -50,6 +51,7 @@
   text-align: left;
   display: flex;
   align-items: center;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-link-mail {
   color: var(--graphite);
@@ -61,6 +63,7 @@
   text-align: left;
   display: flex;
   align-items: center;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-link-mail:hover,
@@ -109,9 +112,14 @@
 }
 
 /* Team */
+.team .social-links li {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .team .social-links svg {
   fill: var(--team-social-link-icons);
   margin: auto;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team .social-links svg:hover,
 .team .social-links svg:focus {
@@ -143,6 +151,7 @@
 
 .clients-link svg {
   fill: var(--partners-icons);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link li:hover,
@@ -167,6 +176,7 @@
   justify-content: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* footer */
@@ -214,6 +224,9 @@
   fill: var(--footer-social-link-icons);
 }
 
+.social-links li {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .social-links svg {
   width: 22px;
   height: 22px;
