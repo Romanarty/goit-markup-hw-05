@@ -103,11 +103,11 @@ span {
 .nav-link:focus {
   color: var(--nav-blue);
 }
-.current {
+.current-page {
   position: relative;
 }
 
-.current::after {
+.current-page::after {
   content: '';
   position: absolute;
   display: block;
