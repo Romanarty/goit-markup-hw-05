@@ -31,8 +31,11 @@ body {
 }
 
 /* header */
-.header {
+header {
   border-bottom: var(--border) 1px solid;
+}
+
+.header {
   padding-right: 15px;
   padding-left: 15px;
   display: flex;
@@ -293,6 +296,7 @@ h2 {
   line-height: 31px;
   display: inline-block;
   margin-bottom: 20px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 footer {

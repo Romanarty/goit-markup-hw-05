@@ -346,24 +346,11 @@ footer {
 }
 
 /* Homework-5 */
-.img-1::after {
-  content: 'Десктопные приложения';
-  position: relative;
-}
-.img-2::after {
-  content: 'Мобильные приложения';
-}
-.img-3::after {
-  content: 'Дизайнерские решения';
-}
-
 .projects {
   position: relative;
 }
 
-.img-1::after,
-.img-2::after,
-.img-3::after {
+.description {
   bottom: 0;
   width: 100%;
   color: var(--general-white);
@@ -381,6 +368,11 @@ footer {
   width: 370px;
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
+}
+
+.description p {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .backdrop {
